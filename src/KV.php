@@ -15,7 +15,7 @@ use Hyperf\Stringable\Str;
 
 class KV
 {
-    public ?string $lockIndex = null;
+    public int|string|null $lockIndex = null;
 
     public ?string $key = null;
 
